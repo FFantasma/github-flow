@@ -22,6 +22,7 @@ jobs:
   segundo-job:
     name: "Instalação do ambinete nodejs"
     runs-on: ubuntu-latest
+    needs: [primeiro-job]
     steps:
       - name: "Verificação da versão do NodeJS atual"
         run: node --version
