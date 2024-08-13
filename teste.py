@@ -2,4 +2,4 @@ print ("Olá mundo!!!")
 
 print ("Feature-xpto!!")
 
-print ("Hotfix xpto")
+print ("Hotfix xpto!")
